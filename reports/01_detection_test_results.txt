@@ -1,0 +1,37 @@
+Command: .venv\Scripts\python.exe -B -m pytest tests/test_detection.py -q
+Working directory: E:\Code\Paper_Code\Paper_Yan\20261009_TNSE
+Exit code: 0
+
+.........................                                                [100%]
+25 passed in 4.96s
+
+Coverage includes:
+- Dataset API, shapes, float32, finite descriptors, binary/subtype encoding,
+  manifest validation, and complete dataset file-tree immutability.
+- Same-seed descriptor loading, independent temporary identities and partition
+  reproducibility; changing labels, prototype, prototype cosine, and sample_id
+  cannot change observations, GT construction, verifier assignments or predictions.
+- Stable cosine normalization, identical/orthogonal vectors, inclusive threshold
+  boundaries, and zero/NaN/Inf rejection.
+- K=50 majority 26/24 success, 25/25 failure, odd K=49 support boundary,
+  candidate expansion 50->75 with actual threshold 26->38, exhausted pool behavior,
+  history-first deterministic ordering, and readonly observation copies.
+- Proposed single-verifier classification differs from majority voting; balanced
+  cyclic allocation and fixed Single-Reference; identical target IDs across all
+  five method records; unavailable/unsupported methods have no predictions.
+- Hand-computed confusion matrix and metrics; zero-denominator NaN and F1=0 for
+  missed positive instances; all four subtype error rates and empty strata.
+- D1/D2 each45 genuine configurations, shared25 overlap, union65 full/9 quick,
+  predeclared30 full seeds and3 quick seeds.
+- Identical repeated run_configuration raw/subtype CSV bytes and audit arrays.
+- Default CLI mode FULL; complete --quick execution from an unrelated working
+  directory, with custom output isolated under its quick subdirectory.
+- All135 quick method rows retained, predictions cover N-100 shared targets,
+  valid metric ranges, explicit failure/unsupported NaN metrics, and nonempty
+  readable one-page PDF plus600dpi PNG outputs for both main figures.
+
+Scratch output: tmp\pytest_detection (outside the immutable dataset).
+The final autouse snapshot check verified that no dataset file was changed,
+deleted, or added during all25 tests, including the subprocess experiment.
+Final-source rerun: completed after the FULL experiment and final report/plot
+changes; no FULL algorithm rerun was performed as part of this verification.

@@ -1,0 +1,95 @@
+{
+  "dataset_name": "TNSE-SimSimple-v1",
+  "provenance": "fully synthetic angular/static-attribute descriptors; not pretrained models",
+  "seed": 2026,
+  "n_values": [
+    1000,
+    1500,
+    2000,
+    2500,
+    3000,
+    3500,
+    4000,
+    4500,
+    5000
+  ],
+  "cr_percent_values": [
+    1.0,
+    1.5,
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0
+  ],
+  "d_values": [
+    10,
+    15,
+    20,
+    25,
+    30,
+    35,
+    40,
+    45,
+    50
+  ],
+  "H_values": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "default": {
+    "n": 3000,
+    "cr_percent": 3.0,
+    "d": 30,
+    "H": 0.5,
+    "tau_lower": 0.997,
+    "K": 50,
+    "M": 25,
+    "alpha": 0.5,
+    "lambda": 0.5,
+    "rho": 0.5,
+    "eta": 0.5,
+    "A_max": 20,
+    "T_round_max_ms": 400,
+    "beta_B": 0.1,
+    "sigma": 0.5,
+    "T": 200
+  },
+  "bank_subtype_counts": {
+    "common_normal": 4800,
+    "high_personalized_normal": 1200,
+    "severe_corrupt": 2100,
+    "mild_corrupt": 900
+  },
+  "composition": {
+    "normal_high_fraction": 0.2,
+    "corrupt_mild_fraction": 0.2
+  },
+  "precision": "float32",
+  "payload_bytes": "4*d",
+  "resource": {
+    "compute_ms_at_d30": 4.0,
+    "bandwidth_Mbps": 50.0,
+    "oneway_network_ms": 10.0
+  },
+  "dynamic": {
+    "event_cr_is_ever_corrupted_fraction": true,
+    "onset_min_round": 15,
+    "onset_max_exclusive": "T-75",
+    "duration_min": 30,
+    "duration_max_inclusive": 70
+  },
+  "expected_virtual_groups": 729,
+  "notes": "H=0.0..1.0 controls legitimate model variation only; corrupted banks stay fixed."
+}

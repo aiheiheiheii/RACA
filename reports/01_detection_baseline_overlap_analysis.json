@@ -1,0 +1,32 @@
+{
+  "saved_results_version": "hash-baselines-v3",
+  "new_source_version": "hash-baselines-v4",
+  "data_trials": 1950,
+  "method_rows": 7800,
+  "baseline_exactly_equal_confusion_trials": 1949,
+  "I_Dyna_equal_trials": 1950,
+  "exactly_equal_accuracy_mean_points": 64,
+  "mean_points": 65,
+  "baseline_targets_per_method": 5655000,
+  "normal_prediction_counts": {
+    "I-EDI-Adapted": 0,
+    "CTCV-Adapted": 1,
+    "DynaEDI+-Adapted": 0
+  },
+  "exception": {
+    "N": 2000,
+    "cr": 4.0,
+    "seed": 2051,
+    "position": 1171,
+    "temporary_id": 1001534,
+    "true_label": 0,
+    "ctcv_predicted": 0,
+    "others_predicted": 1,
+    "config_mean_accuracy_delta": 1.7543859649122806e-05,
+    "config_mean_accuracy_delta_percentage_points": 0.0017543859649122807
+  },
+  "scope": "streamed saved raw/summary CSV and selected prediction NPZ; no detector execution",
+  "new_experiments_executed": false,
+  "tests_executed": false,
+  "figures_rerendered": false
+}

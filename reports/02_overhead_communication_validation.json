@@ -1,0 +1,62 @@
+{
+  "frozen_files_unchanged": {
+    "logs/run_manifest.json": true,
+    "raw/overhead_runs.csv": true,
+    "summary/time_overhead_summary.csv": true,
+    "summary/communication_overhead_summary.csv": true,
+    "figures/Fig_O1_time_overhead.pdf": true,
+    "figures/Fig_O1_time_overhead.png": true
+  },
+  "paired_points": 45,
+  "raca_communication_lowest_points": 45,
+  "reduction_percent_min": 70.13297046957435,
+  "reduction_percent_max": 74.15014553242902,
+  "overall_reduction_percent": 71.77993304337403,
+  "base_total_bytes": 3045255,
+  "encoded_total_bytes": 859373,
+  "raca_monotonic_by_d": {
+    "10": true,
+    "20": true,
+    "30": true,
+    "40": true,
+    "50": true
+  },
+  "refinement_count": 2215,
+  "raw_fallback_count": 5,
+  "gt_refinement_count": 918,
+  "gt_raw_fallback_count": 0,
+  "all_gt_and_target_verdicts_preserved": true,
+  "baseline_byte_records_unchanged": true,
+  "N5000_by_d": [
+    {
+      "d": 10,
+      "base_bytes": 61458,
+      "encoded_bytes": 16677,
+      "iedi_bytes": 39983
+    },
+    {
+      "d": 20,
+      "base_bytes": 83378,
+      "encoded_bytes": 23268,
+      "iedi_bytes": 40983
+    },
+    {
+      "d": 30,
+      "base_bytes": 105298,
+      "encoded_bytes": 29521,
+      "iedi_bytes": 41983
+    },
+    {
+      "d": 40,
+      "base_bytes": 127218,
+      "encoded_bytes": 35879,
+      "iedi_bytes": 42983
+    },
+    {
+      "d": 50,
+      "base_bytes": 149138,
+      "encoded_bytes": 42885,
+      "iedi_bytes": 43983
+    }
+  ]
+}

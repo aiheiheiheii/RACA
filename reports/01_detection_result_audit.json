@@ -1,0 +1,739 @@
+{
+  "result": "PASS",
+  "scope": "Independent offline audit of completed FULL artifacts; no algorithms or experiment metric helpers imported/executed",
+  "total_checks": 440767,
+  "failure_count": 0,
+  "failures": [],
+  "stages": {
+    "coverage": {
+      "checks": 11,
+      "failures": 0
+    },
+    "raw_status": {
+      "checks": 56550,
+      "failures": 0
+    },
+    "confusion_metrics": {
+      "checks": 31200,
+      "failures": 0
+    },
+    "unsupported": {
+      "checks": 40950,
+      "failures": 0
+    },
+    "paired_targets": {
+      "checks": 19500,
+      "failures": 0
+    },
+    "prediction_evidence": {
+      "checks": 64351,
+      "failures": 0
+    },
+    "subtype_evidence": {
+      "checks": 210600,
+      "failures": 0
+    },
+    "summary_statistics": {
+      "checks": 17551,
+      "failures": 0
+    },
+    "figure_data": {
+      "checks": 30,
+      "failures": 0
+    },
+    "figure_files": {
+      "checks": 21,
+      "failures": 0
+    },
+    "immutability": {
+      "checks": 2,
+      "failures": 0
+    },
+    "reproducibility_log": {
+      "checks": 1,
+      "failures": 0
+    }
+  },
+  "coverage": {
+    "data_trials": 1950,
+    "raw_rows": 9750,
+    "subtype_rows": 39000,
+    "summary_rows": 325,
+    "prediction_files_audited": 1950,
+    "supported_prediction_arrays_audited": 3900,
+    "configurations": 65,
+    "seeds": [
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033,
+      2034,
+      2035,
+      2036,
+      2037,
+      2038,
+      2039,
+      2040,
+      2041,
+      2042,
+      2043,
+      2044,
+      2045,
+      2046,
+      2047,
+      2048,
+      2049,
+      2050,
+      2051,
+      2052,
+      2053,
+      2054,
+      2055
+    ],
+    "status_counts": {
+      "success": 3900,
+      "unsupported": 5850
+    }
+  },
+  "figure_panel_data": {
+    "D1": [
+      {
+        "fixed": 1,
+        "points": [
+          [
+            1000,
+            1.0
+          ],
+          [
+            1500,
+            1.0
+          ],
+          [
+            2000,
+            1.0
+          ],
+          [
+            2500,
+            1.0
+          ],
+          [
+            3000,
+            1.0
+          ],
+          [
+            3500,
+            1.0
+          ],
+          [
+            4000,
+            1.0
+          ],
+          [
+            4500,
+            1.0
+          ],
+          [
+            5000,
+            1.0
+          ]
+        ]
+      },
+      {
+        "fixed": 2,
+        "points": [
+          [
+            1000,
+            2.0
+          ],
+          [
+            1500,
+            2.0
+          ],
+          [
+            2000,
+            2.0
+          ],
+          [
+            2500,
+            2.0
+          ],
+          [
+            3000,
+            2.0
+          ],
+          [
+            3500,
+            2.0
+          ],
+          [
+            4000,
+            2.0
+          ],
+          [
+            4500,
+            2.0
+          ],
+          [
+            5000,
+            2.0
+          ]
+        ]
+      },
+      {
+        "fixed": 3,
+        "points": [
+          [
+            1000,
+            3.0
+          ],
+          [
+            1500,
+            3.0
+          ],
+          [
+            2000,
+            3.0
+          ],
+          [
+            2500,
+            3.0
+          ],
+          [
+            3000,
+            3.0
+          ],
+          [
+            3500,
+            3.0
+          ],
+          [
+            4000,
+            3.0
+          ],
+          [
+            4500,
+            3.0
+          ],
+          [
+            5000,
+            3.0
+          ]
+        ]
+      },
+      {
+        "fixed": 4,
+        "points": [
+          [
+            1000,
+            4.0
+          ],
+          [
+            1500,
+            4.0
+          ],
+          [
+            2000,
+            4.0
+          ],
+          [
+            2500,
+            4.0
+          ],
+          [
+            3000,
+            4.0
+          ],
+          [
+            3500,
+            4.0
+          ],
+          [
+            4000,
+            4.0
+          ],
+          [
+            4500,
+            4.0
+          ],
+          [
+            5000,
+            4.0
+          ]
+        ]
+      },
+      {
+        "fixed": 5,
+        "points": [
+          [
+            1000,
+            5.0
+          ],
+          [
+            1500,
+            5.0
+          ],
+          [
+            2000,
+            5.0
+          ],
+          [
+            2500,
+            5.0
+          ],
+          [
+            3000,
+            5.0
+          ],
+          [
+            3500,
+            5.0
+          ],
+          [
+            4000,
+            5.0
+          ],
+          [
+            4500,
+            5.0
+          ],
+          [
+            5000,
+            5.0
+          ]
+        ]
+      }
+    ],
+    "D2": [
+      {
+        "fixed": 1000,
+        "points": [
+          [
+            1000,
+            1.0
+          ],
+          [
+            1000,
+            1.5
+          ],
+          [
+            1000,
+            2.0
+          ],
+          [
+            1000,
+            2.5
+          ],
+          [
+            1000,
+            3.0
+          ],
+          [
+            1000,
+            3.5
+          ],
+          [
+            1000,
+            4.0
+          ],
+          [
+            1000,
+            4.5
+          ],
+          [
+            1000,
+            5.0
+          ]
+        ]
+      },
+      {
+        "fixed": 2000,
+        "points": [
+          [
+            2000,
+            1.0
+          ],
+          [
+            2000,
+            1.5
+          ],
+          [
+            2000,
+            2.0
+          ],
+          [
+            2000,
+            2.5
+          ],
+          [
+            2000,
+            3.0
+          ],
+          [
+            2000,
+            3.5
+          ],
+          [
+            2000,
+            4.0
+          ],
+          [
+            2000,
+            4.5
+          ],
+          [
+            2000,
+            5.0
+          ]
+        ]
+      },
+      {
+        "fixed": 3000,
+        "points": [
+          [
+            3000,
+            1.0
+          ],
+          [
+            3000,
+            1.5
+          ],
+          [
+            3000,
+            2.0
+          ],
+          [
+            3000,
+            2.5
+          ],
+          [
+            3000,
+            3.0
+          ],
+          [
+            3000,
+            3.5
+          ],
+          [
+            3000,
+            4.0
+          ],
+          [
+            3000,
+            4.5
+          ],
+          [
+            3000,
+            5.0
+          ]
+        ]
+      },
+      {
+        "fixed": 4000,
+        "points": [
+          [
+            4000,
+            1.0
+          ],
+          [
+            4000,
+            1.5
+          ],
+          [
+            4000,
+            2.0
+          ],
+          [
+            4000,
+            2.5
+          ],
+          [
+            4000,
+            3.0
+          ],
+          [
+            4000,
+            3.5
+          ],
+          [
+            4000,
+            4.0
+          ],
+          [
+            4000,
+            4.5
+          ],
+          [
+            4000,
+            5.0
+          ]
+        ]
+      },
+      {
+        "fixed": 5000,
+        "points": [
+          [
+            5000,
+            1.0
+          ],
+          [
+            5000,
+            1.5
+          ],
+          [
+            5000,
+            2.0
+          ],
+          [
+            5000,
+            2.5
+          ],
+          [
+            5000,
+            3.0
+          ],
+          [
+            5000,
+            3.5
+          ],
+          [
+            5000,
+            4.0
+          ],
+          [
+            5000,
+            4.5
+          ],
+          [
+            5000,
+            5.0
+          ]
+        ]
+      }
+    ]
+  },
+  "figure_files": [
+    {
+      "name": "Fig_D1_detection_vs_N",
+      "pdf_pages": 1,
+      "pdf_inches": [
+        7.16,
+        2.1500000000000004
+      ],
+      "pdf_bytes": 41511,
+      "pdf_embedded_images": 0,
+      "png_pixels": [
+        4296,
+        1290
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_bytes": 297948
+    },
+    {
+      "name": "Fig_D2_detection_vs_cr",
+      "pdf_pages": 1,
+      "pdf_inches": [
+        7.16,
+        2.1500000000000004
+      ],
+      "pdf_bytes": 40629,
+      "pdf_embedded_images": 0,
+      "png_pixels": [
+        4296,
+        1290
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_bytes": 301536
+    },
+    {
+      "name": "Fig_D_diagnostic_metrics",
+      "pdf_pages": 1,
+      "pdf_inches": [
+        7.16,
+        2.1500000000000004
+      ],
+      "pdf_bytes": 45228,
+      "pdf_embedded_images": 0,
+      "png_pixels": [
+        4296,
+        1290
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "png_bytes": 242802
+    }
+  ],
+  "dataset_files_hashed": 31,
+  "full_result_files_hashed": 1967,
+  "method_statistics": {
+    "Proposed": {
+      "configuration_equal_weight_mean": {
+        "accuracy": 0.9633686341005342,
+        "precision": 0.4460185213283845,
+        "recall": 0.9382098920325799,
+        "f1": 0.5874847472305837,
+        "fpr": 0.0358501465584534,
+        "fnr": 0.061790107967420044
+      },
+      "default_N3000_cr3": {
+        "accuracy": {
+          "mean": 0.9643103448275863,
+          "std": 0.012815456528435793,
+          "ci_low": 0.9595249747145117,
+          "ci_high": 0.9690957149406608,
+          "n": 30.0
+        },
+        "precision": {
+          "mean": 0.4745494116644338,
+          "std": 0.09641207716318755,
+          "ci_low": 0.4385485503941041,
+          "ci_high": 0.5105502729347635,
+          "n": 30.0
+        },
+        "recall": {
+          "mean": 0.9377667942623036,
+          "std": 0.021878030981957973,
+          "ci_low": 0.9295974032334566,
+          "ci_high": 0.9459361852911505,
+          "n": 30.0
+        },
+        "f1": {
+          "mean": 0.6243097606196409,
+          "std": 0.08307223762141912,
+          "ci_low": 0.5932900772975759,
+          "ci_high": 0.655329443941706,
+          "n": 30.0
+        },
+        "fpr": {
+          "mean": 0.03486836803125056,
+          "std": 0.013344847333018309,
+          "ci_low": 0.029885320143001562,
+          "ci_high": 0.03985141591949956,
+          "n": 30.0
+        },
+        "fnr": {
+          "mean": 0.06223320573769634,
+          "std": 0.021878030981957963,
+          "ci_low": 0.0540638147088494,
+          "ci_high": 0.07040259676654329,
+          "n": 30.0
+        }
+      },
+      "subtype_cumulative": {
+        "common_normal": {
+          "count": 4388149,
+          "errors": 11059,
+          "error_rate": 0.0025201970124533145
+        },
+        "high_personalized_normal": {
+          "count": 1097083,
+          "errors": 186059,
+          "error_rate": 0.16959427864619175
+        },
+        "severe_corrupt": {
+          "count": 135798,
+          "errors": 0,
+          "error_rate": 0.0
+        },
+        "mild_corrupt": {
+          "count": 33970,
+          "errors": 10415,
+          "error_rate": 0.3065940535766853
+        }
+      }
+    },
+    "Single-Reference": {
+      "configuration_equal_weight_mean": {
+        "accuracy": 0.9606269097454501,
+        "precision": 0.7436548516142462,
+        "recall": 0.9393659195167413,
+        "f1": 0.7731094717037144,
+        "fpr": 0.03869173835794991,
+        "fnr": 0.060634080483258725
+      },
+      "default_N3000_cr3": {
+        "accuracy": {
+          "mean": 0.9468160919540229,
+          "std": 0.0851149721013618,
+          "ci_low": 0.91503363904138,
+          "ci_high": 0.9785985448666659,
+          "n": 30.0
+        },
+        "precision": {
+          "mean": 0.7246593969048275,
+          "std": 0.36008252841653415,
+          "ci_low": 0.5902023710547207,
+          "ci_high": 0.8591164227549343,
+          "n": 30.0
+        },
+        "recall": {
+          "mean": 0.9447306536401813,
+          "std": 0.035906891814208954,
+          "ci_low": 0.9313227998848465,
+          "ci_high": 0.9581385073955161,
+          "n": 30.0
+        },
+        "f1": {
+          "mean": 0.7481685791624144,
+          "std": 0.30890638879370874,
+          "ci_low": 0.63282103790306,
+          "ci_high": 0.8635161204217688,
+          "n": 30.0
+        },
+        "fpr": {
+          "mean": 0.05311016078903439,
+          "std": 0.08873122454346537,
+          "ci_low": 0.019977377022443475,
+          "ci_high": 0.08624294455562531,
+          "n": 30.0
+        },
+        "fnr": {
+          "mean": 0.05526934635981883,
+          "std": 0.035906891814208954,
+          "ci_low": 0.04186149260448402,
+          "ci_high": 0.06867720011515364,
+          "n": 30.0
+        }
+      },
+      "subtype_cumulative": {
+        "common_normal": {
+          "count": 4388149,
+          "errors": 13454,
+          "error_rate": 0.003065985225205434
+        },
+        "high_personalized_normal": {
+          "count": 1097083,
+          "errors": 200953,
+          "error_rate": 0.18317027973270938
+        },
+        "severe_corrupt": {
+          "count": 135798,
+          "errors": 0,
+          "error_rate": 0.0
+        },
+        "mild_corrupt": {
+          "count": 33970,
+          "errors": 10275,
+          "error_rate": 0.302472770091257
+        }
+      }
+    }
+  },
+  "limits": [
+    "This offline audit verifies saved prediction evidence and arithmetic, not the scientific validity of synthetic descriptors.",
+    "Same-seed two-run equivalence is checked from the saved experiment log; this audit never reruns the algorithms.",
+    "PDF structure and PNG dimensions/resolution are checked; visual layout review is documented separately.",
+    "CI describes seed resampling of fixed synthetic banks; method-wide configuration averages do not carry independent-population CIs."
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "implementation_version": "hash-baselines-v3",
+  "result": "PASS",
+  "source_count": 28,
+  "methods": [
+    "Proposed",
+    "I-EDI-Adapted",
+    "CTCV-Adapted",
+    "DynaEDI+-Adapted"
+  ],
+  "scope": "AST parse and in-memory compile; static registry/config/oracle/hash-only/plot checks; no project imports",
+  "experiments_executed": false,
+  "tests_executed": false,
+  "experimental_figures_generated": false,
+  "reference_pdf_rendered": true,
+  "reference_pdf": "C:/Users/MengKe/Desktop/TMC.pdf",
+  "current_figure_names": [
+    "Fig_D1_detection_vs_N",
+    "Fig_D2_detection_vs_cr"
+  ],
+  "sources": [
+    {
+      "path": "experiments/01_detection/__init__.py",
+      "sha256": "5dbb3485abb32e617060f299ca977773bbf337df7c2379f28c8f3d4c14d89961"
+    },
+    {
+      "path": "experiments/01_detection/adaptation_utils.py",
+      "sha256": "35af665b183e7d8ebafa8a4889cf1d69c7de5fbac42f02352017eecd04a28629"
+    },
+    {
+      "path": "experiments/01_detection/ctcv_adapted.py",
+      "sha256": "df4fc6d0ac3ea2935887c02dc3877c4b905bb15f743fe393d037934daf4bf9ca"
+    },
+    {
+      "path": "experiments/01_detection/detection_baselines.py",
+      "sha256": "0c1cbe151ced68543d4b6fd5182d46ad48420ebec8408c5d5460db5558eecbc0"
+    },
+    {
+      "path": "experiments/01_detection/detection_experiment.py",
+      "sha256": "b6e1f09e7da2e443bc5321fd343fbb960fb03c0b171303fa9f6f817be7c4ebb6"
+    },
+    {
+      "path": "experiments/01_detection/dynaedi_adapted.py",
+      "sha256": "dd3958ab4c052a34e29e82384b807a65da7d3e05348ff6744aea1ea428e9a6ee"
+    },
+    {
+      "path": "experiments/01_detection/iedi_adapted.py",
+      "sha256": "d755ba8d427768c65f041407a6fe0642ea0bba9589dec9fb8949afbaa2611c62"
+    },
+    {
+      "path": "experiments/01_detection/plot_detection.py",
+      "sha256": "cd072e836c898194e78f6cdf8468061a67c527b9f459c0eb4e9f79434f79ee3a"
+    },
+    {
+      "path": "experiments/01_detection/proposed_detection.py",
+      "sha256": "c8f2ffed08a5fc7ca384f6f34584e706057a665d1d5b0c4c1bc30928c0e1eaa2"
+    },
+    {
+      "path": "experiments/01_detection/run_detection.py",
+      "sha256": "2aab10fb694f9f15a8976c749eed3a568fe3940b5b0df0a10574e34319e2d8a0"
+    },
+    {
+      "path": "experiments/02_overhead/run_overhead.py",
+      "sha256": "3283d018ac6968e23c8c3e8444e65a5fa1edfeebc374d8eb1f9dccef8b1dcd56"
+    },
+    {
+      "path": "experiments/03_threshold/run_threshold.py",
+      "sha256": "e05e2d55e279e58ac3b365530c7643b4dfc353fe8b7e7ea99cf2c234c799dae5"
+    },
+    {
+      "path": "experiments/04_ground_truth/run_ground_truth.py",
+      "sha256": "3391875b274f5ab08a94f275af9f479fd0491110904b8305066dab03e6f1cebf"
+    },
+    {
+      "path": "experiments/05_joint_decision/run_joint_decision.py",
+      "sha256": "54a27eb844d86c116193b4e41024cfd71154dc84c2f3985f073787428d479189"
+    },
+    {
+      "path": "experiments/06_long_term/run_long_term.py",
+      "sha256": "46fd1693cd6e27ccb16eb375c4c62f9717ffafcc55010502632807c5c8b74eec"
+    },
+    {
+      "path": "experiments/__init__.py",
+      "sha256": "cf8bf625cbcf84a5de4190a6e339d8db25c3fa349613fb416b6e9457a348ce22"
+    },
+    {
+      "path": "experiments/common/__init__.py",
+      "sha256": "7bade2f64c3f61d22c71bf3db8ba4448fbbf74a6db803425ce45a6b4cd210d23"
+    },
+    {
+      "path": "experiments/common/config.py",
+      "sha256": "b791e376e266b6704bfc418ec5020b26033e48008fca9b14a6fe39ad37ade596"
+    },
+    {
+      "path": "experiments/common/dataset_adapter.py",
+      "sha256": "b97842d6245ab3b2c64c8a17e2c66c5d0ed1325801156d67a18feba658c0e9d5"
+    },
+    {
+      "path": "experiments/common/metrics.py",
+      "sha256": "bda382d3a7db35afab00c943d597028aef146535fadce3e1af4010481294185b"
+    },
+    {
+      "path": "experiments/common/plotting_style.py",
+      "sha256": "718ca5ba2610043cacb7a4f57b5fea4547ae03bfc78dc750914cad697664d363"
+    },
+    {
+      "path": "experiments/common/reproducibility.py",
+      "sha256": "bc4a8a05f509fda63fdc4466cf5fe816c0afdc6d0847c369e28b284f54fc410e"
+    },
+    {
+      "path": "experiments/common/similarity.py",
+      "sha256": "a70e0518f6bac9f526b1bc54e73e1cc976bcdc2d6e34927b3e44e5164f75a66e"
+    },
+    {
+      "path": "experiments/run_all.py",
+      "sha256": "a79a586524837182e46386f521456189973766084dd95dce67bf90818f4039f5"
+    },
+    {
+      "path": "scripts/audit_detection_results.py",
+      "sha256": "53392590596a49532bae893b195ea5240bcf97d530bfdc9ec6da296d2d5d3bf6"
+    },
+    {
+      "path": "scripts/validate_dataset_readonly.py",
+      "sha256": "78b752a97bc1bc1c21deae8a127a77b3a295fee6abd5f747a5f81b3c7579e62d"
+    },
+    {
+      "path": "tests/conftest.py",
+      "sha256": "de106271e442c6b93c291422aca45c1662a0601e24f810a5e9a9d34c7f6f47c7"
+    },
+    {
+      "path": "tests/test_detection.py",
+      "sha256": "6231afbdec554a5f92fc59fdd410510bea0ec0d86ba20d0e14461064cbd50a94"
+    }
+  ]
+}

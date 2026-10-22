@@ -1,0 +1,73 @@
+{
+  "checked_at": "2026-10-13T17:49:47.265024+08:00",
+  "scope": "AST/source/file-identity checks only; no project module imported or executed",
+  "syntax_parsed_and_compiled": [
+    "experiments/03_threshold/__init__.py",
+    "experiments/03_threshold/config_threshold.py",
+    "experiments/03_threshold/plot_threshold.py",
+    "experiments/03_threshold/run_threshold.py",
+    "experiments/03_threshold/threshold_experiment.py",
+    "experiments/03_threshold/threshold_metrics.py",
+    "experiments/03_threshold/threshold_storage.py"
+  ],
+  "relative_import_paths": [
+    {
+      "module": "threshold_experiment",
+      "target": "config_threshold",
+      "resolved": true
+    },
+    {
+      "module": "threshold_metrics",
+      "target": "config_threshold",
+      "resolved": true
+    },
+    {
+      "module": "threshold_storage",
+      "target": "config_threshold",
+      "resolved": true
+    },
+    {
+      "module": "threshold_storage",
+      "target": "threshold_metrics",
+      "resolved": true
+    }
+  ],
+  "formal_protocol_literal_check": {
+    "N": 3000,
+    "d": 30,
+    "H": 0.5,
+    "cr_count": 5,
+    "tau_count": 11,
+    "seed_count": 30,
+    "expected_runs": 1650
+  },
+  "entry_points_static": "both main guards and root bootstrap present; full run default; plots-only branch present",
+  "detector_reuse_static": "existing Group 01 import; one loader call; per-tau replace config",
+  "threshold_paths_static": "Group 01 GT and target functions both read config lower/upper; actual-K majority",
+  "redraw_project_import_graph": [
+    "experiments.03_threshold.config_threshold",
+    "experiments.03_threshold.plot_threshold",
+    "experiments.03_threshold.threshold_metrics",
+    "experiments.03_threshold.threshold_storage",
+    "experiments.common.config",
+    "experiments.common.method_names",
+    "experiments.common.plotting_style",
+    "experiments.common.reproducibility"
+  ],
+  "redraw_no_detector_or_dataset_import_static": true,
+  "plot_rules_static": "shared METRIC_STYLES, solid curves, full [0,1] y, PNG600 via existing style",
+  "protected_file_sha256_comparison": {
+    "file_count": 3475,
+    "changed": [],
+    "added": [],
+    "removed": [],
+    "unchanged": true
+  },
+  "group03_numerical_or_figure_outputs_created": false,
+  "experiments_executed": false,
+  "algorithm_trials_executed": false,
+  "runtime_validators_executed": false,
+  "tests_executed": false,
+  "group03_figures_rendered": false,
+  "limitations": "No runtime correctness, measured statistics or generated layout is claimed as verified"
+}

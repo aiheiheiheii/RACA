@@ -1,0 +1,22 @@
+{
+  "group_id": "N3000_CR3.0_D30_H0.5_S2026",
+  "device_count": 3000,
+  "corruption_rate": 3.0,
+  "vector_dimension": 30,
+  "heterogeneity_H": 0.5,
+  "tau_lower": 0.997,
+  "tau_upper": 1.0,
+  "labels": {
+    "0": "common_normal",
+    "1": "high_personalized_normal",
+    "2": "severe_corrupt",
+    "3": "mild_corrupt"
+  },
+  "counts": {
+    "common_normal": 2328,
+    "high_personalized_normal": 582,
+    "severe_corrupt": 72,
+    "mild_corrupt": 18
+  },
+  "generation": "Deterministic sample from stored 50D angular descriptor banks"
+}
